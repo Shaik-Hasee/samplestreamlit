@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 st.write("<h1>This is my streamlit page</h1>",unsafe_allow_html=True)
 st.write("<h1 style='color:red;'>This is my streamlit page</h1>",unsafe_allow_html=True)
 uploaded_file=st.file_uploader("upload a file")
